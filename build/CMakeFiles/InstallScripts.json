@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/danie/Documents/C/Uni/P1/build/cmake_install.cmake",
+		"C:/Users/danie/Documents/C/Uni/P1/build/vendored/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
