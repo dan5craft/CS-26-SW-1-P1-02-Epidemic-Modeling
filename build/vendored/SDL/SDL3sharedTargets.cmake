@@ -52,7 +52,7 @@ add_library(SDL3::SDL3-shared SHARED IMPORTED)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
   COMPATIBLE_INTERFACE_BOOL "SDL3_SHARED"
   COMPATIBLE_INTERFACE_STRING "SDL_VERSION"
-  INTERFACE_LINK_DEPENDS "C:/Users/danie/Documents/C/Uni/P1/vendored/SDL/src/dynapi/SDL_dynapi.sym"
+  INTERFACE_LINK_DEPENDS "C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/vendored/SDL/src/dynapi/SDL_dynapi.sym"
   INTERFACE_LINK_LIBRARIES "SDL3::Headers"
   INTERFACE_SDL3_SHARED "TRUE"
   INTERFACE_SDL_VERSION "SDL3"
@@ -62,8 +62,8 @@ set_target_properties(SDL3::SDL3-shared PROPERTIES
 # Import target "SDL3::SDL3-shared" for configuration ""
 set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
-  IMPORTED_IMPLIB_NOCONFIG "C:/Users/danie/Documents/C/Uni/P1/build/vendored/SDL/libSDL3.dll.a"
-  IMPORTED_LOCATION_NOCONFIG "C:/Users/danie/Documents/C/Uni/P1/build/SDL3.dll"
+  IMPORTED_IMPLIB_NOCONFIG "C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/build/vendored/SDL/libSDL3.dll.a"
+  IMPORTED_LOCATION_NOCONFIG "C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/build/SDL3.dll"
   )
 
 # Make sure the targets which have been exported in some other

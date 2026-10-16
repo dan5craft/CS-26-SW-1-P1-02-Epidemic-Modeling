@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(SDL3::Headers INTERFACE IMPORTED)
 
 set_target_properties(SDL3::Headers PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/danie/Documents/C/Uni/P1/build/vendored/SDL/include-revision;C:/Users/danie/Documents/C/Uni/P1/vendored/SDL/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/build/vendored/SDL/include-revision;C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/vendored/SDL/include"
 )
 
 # This file does not depend on other imported targets which have

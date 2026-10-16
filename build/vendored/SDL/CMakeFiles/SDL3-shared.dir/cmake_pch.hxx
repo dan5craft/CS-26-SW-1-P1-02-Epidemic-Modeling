@@ -2,5 +2,5 @@
 
 #pragma GCC system_header
 #ifdef __cplusplus
-#include "C:/Users/danie/Documents/C/Uni/P1/vendored/SDL/src/SDL_internal.h"
+#include "C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/vendored/SDL/src/SDL_internal.h"
 #endif // __cplusplus

@@ -59,7 +59,7 @@ set_target_properties(SDL3::SDL3_test PROPERTIES
 set_property(TARGET SDL3::SDL3_test APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(SDL3::SDL3_test PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "C:/Users/danie/Documents/C/Uni/P1/build/vendored/SDL/libSDL3_test.a"
+  IMPORTED_LOCATION_NOCONFIG "C:/Users/danie/Documents/GitHub/CS-26-SW-1-P1-02-Epidemic-Modeling/build/vendored/SDL/libSDL3_test.a"
   )
 
 # Make sure the targets which have been exported in some other
